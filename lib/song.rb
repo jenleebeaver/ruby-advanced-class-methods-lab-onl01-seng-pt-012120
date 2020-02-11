@@ -47,7 +47,7 @@ class Song
     sorted
   end
 
-  def new_from_filename(filename)
+  def self.new_from_filename(filename)
     song_array = filename.split(" - ")
     song_array[1] = song_array[1].chomp(".mp3") #removing record separater
     song = self.new
