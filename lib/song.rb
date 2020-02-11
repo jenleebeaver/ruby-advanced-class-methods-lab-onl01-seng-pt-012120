@@ -49,7 +49,7 @@ class Song
 
   def new_from_filename(filename)
     song_array = filename.split(" - ")
-    song_array[1] = song_array[1].chomp(".mp3")
+    song_array[1] = song_array[1].chomp(".mp3") #removing record separater 
   end
 
 end
