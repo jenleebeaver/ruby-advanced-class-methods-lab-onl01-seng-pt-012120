@@ -47,4 +47,7 @@ class Song
     sorted
   end
 
+  def new_from_filename(filename)
+  end
+
 end
